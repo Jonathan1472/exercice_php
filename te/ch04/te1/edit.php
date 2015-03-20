@@ -41,12 +41,6 @@ if (!$result = $dbh->query(QUERY)) {
     <title>Lecture d'enregistrements dans une table</title>
   </head>
   <body>
-<?php
-    while ($city = $result->fetch_assoc()) {
-    echo "  {$city['ID']}, {$city['Name']}, {$city['CountryCode']}, {$city['District']}<br>";
-}
-    echo '<a href="http://localhost/~cpnv/exercice_php/te/ch04/te1/edit.php">Lien</a>';
-    
-?>
+
   </body>
 </html>
