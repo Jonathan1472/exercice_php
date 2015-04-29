@@ -60,7 +60,6 @@ $id=$_GET['ID'];
     <p>District:<input type="text" value="<?= $city['District']; ?>" name="District" /></p>
     <p>Population:<input type="text" value="<?= $city['Population']; ?>" name="Population" /></p>
     <input type="submit" value="Modifier" />
-    <input type="submit" value="Enregistrer" />
 </form>
 
 <?php
