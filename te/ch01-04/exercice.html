@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+  </head>
+  <body>
+
+  <form name="formulaire" method="post" action="traitement.php">
+      <br> Sexe:</br>
+       <input type="radio" name="sex" value="male" />M
+       <input type="radio" name="sex" value="female" />F
+  
+    <div>
+      <label>Nom:
+        <input name="nom" type="text" maxlength="50" required>
+      </label>
+    </div>
+  
+    <div>
+      <label>Courriel:
+        <input name="mail" type="text">
+      </label>
+    </div>
+  
+    <div>
+      <input type="submit" name="submit" value="Envoyer">
+    </div>
+
+  </form>
+
+  </body>
+</html>
